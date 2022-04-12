@@ -68,9 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             seconds = seconds % 60;
             showMilli.setText(Long.toString(millis));
             showSecond.setText(Long.toString(seconds));
-            showMinute.setText(String.format("%02d", minutes) + ":" +
-
-                    String.format("%02d", seconds));
+            showMinute.setText(String.format("%02d", minutes) + ":" + String.format("%02d", seconds));
 
         }
     };
